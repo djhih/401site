@@ -2,15 +2,12 @@ title: Workstation
 ---
 
 ## 工作站
-目前系上提供三台 FreeBSD 工作站與兩台 Linux 工作站：
+目前系上提供一台 FreeBSD 工作站與一台 Linux 工作站：
 - **FreeBSD**
-    - csie0.cs.ccu.edu.tw
-    - csie1.cs.ccu.edu.tw
-    - csie2.cs.ccu.edu.tw
+    - daemon.cs.ccu.edu.tw
 
 - **Linux**
-    - linux.cs.ccu.edu.tw
-    - mcore8.cs.ccu.edu.tw
+    - tux.cs.ccu.edu.tw
 
 ----
 
@@ -40,11 +37,10 @@ ssh 帳號名稱@工作站位址
 ```
 - 範例：
 ``` Shell-Script
-ssh user@csie1.cs.ccu.edu.tw
+ssh user@tux.cs.ccu.edu.tw
 ```
 ### FTP
 - 建議使用 SFTP 傳輸檔案以增加安全性。
-- 目前支援 FTP 傳輸檔案的工作站有 csie0.cs 和 csie1.cs。
 
 ### SFTP
 - 所有工作站皆有支援 SFTP 協定。
@@ -71,3 +67,27 @@ ssh user@csie1.cs.ccu.edu.tw
 ``` Shell-Script
     quota -s
 ```
+
+## 更改密碼
+
+需至 tux.cs.ccu.edu.tw
+
+```
+> passwd
+```
+
+## 更改 Shell
+
+需至 tux.cs.ccu.edu.tw
+
+輸入密碼驗證身份後，即可更換
+
+```
+> chsh.ldap
+```
+
+## 外系申請帳號
+
+##### 由於 csie2 已退役，目前是給外系生能用 tux,daemon
+##### 可能從下學期開始，會額外架一台給外系生使用
+##### 需刪除原先 csie2 的部分

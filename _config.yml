@@ -18,7 +18,7 @@ theme: navy
 deploy:
   type: git
   branch: production
-  repo: git@github.com:setsal/401site.git
+  repo: git@github.com:sleepyman212/401site.git
 
 highlight:
   enable: true
