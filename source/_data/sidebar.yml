@@ -6,6 +6,7 @@ docs:
     www_guide: www.html
     mail_guide: mail.html
     vpn_guide: vpn.html
+    vpn2_guide: vpn2.html
     turnin_guide: turnin.html
     alumni_guide: alumni.html
     mysql_guide: mysql.html

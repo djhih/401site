@@ -15,6 +15,9 @@ title: 提供服務
 ### VPN
 - [VPN 使用手冊](vpn.html)
 
+### VPN2
+- [VPN2 使用手冊](vpn2.html)
+
 ### Turnin
 - [Turnin 使用手冊](turnin.html)
 
