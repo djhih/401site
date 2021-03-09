@@ -25,10 +25,25 @@ title: 外系生
 
 ## 外系生工作站資訊
 
-+ 位址：csie2.cs.ccu.edu.tw
-+ 連線：請以任何支援 SSH protocol version 2 的程式來登入工作站。
-    + Windows 使用者可使用 PuTTY, PieTTY, MobaXterm, ...。
-    + Unix-like 使用者可使用 OpenSSH, Dropbear, ...。
+
+|    OS     |        Domain        |
+|:-------:|:--------------------:|
+|  Linux  |  tux.cs.ccu.edu.tw   |
+| FreeBSD | daemon.cs.ccu.edu.tw |
+
++ 更改密碼
+
+需至 tux.cs.ccu.edu.tw
+
+```
+> passwd
+```
+
++  更改 Shell
+
+需至 tux.cs.ccu.edu.tw
+
+輸入密碼驗證身份後，即可更換
 
 
 + SSH 登入方式
