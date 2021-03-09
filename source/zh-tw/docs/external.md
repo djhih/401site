@@ -48,7 +48,7 @@ title: 外系生
 
 + SSH 登入方式
 ```bash
-ssh 帳號名稱@csie2.cs.ccu.edu.tw
+ssh 帳號名稱@tux.cs.ccu.edu.tw
 ```
 
 + 更改密碼：連線至工作站後輸入指令
