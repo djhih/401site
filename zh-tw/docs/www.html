@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head prefix="og: http://ogp.me/ns#"><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  <title>WWW Server 使用手冊 | 401site</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Alternative links -->
+  
+    
+      <link rel="alternative" hreflang="zh-tw" href="https://setsal.github.io/zh-tw/docs/www.html">
+    
+  
+  <!-- Icon -->
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  <link rel="stylesheet" href="/css/navy.css">
+  <!-- endbuild -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+</head>
+
+<body>
+  <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      <a href="/" id="logo">Hexo</a>
+    </h1>
+    <nav id="main-nav">
+      <a href="/zh-tw/docs/" class="main-nav-link">教學</a><a href="/about/" class="main-nav-link">關於</a>
+    </nav>
+    <div id="lang-select-wrap">
+      <label id="lang-select-label"><i class="fa fa-globe"></i><span>正體中文</span></label>
+      <select id="lang-select" data-canonical="docs/www.html">
+        
+          <option value="zh-tw" selected>正體中文</option>
+        
+      </select>
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
+    <div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <header class="article-header">
+                <h1 class="article-title" itemprop="name">WWW Server 使用手冊</h1>
+              </header>
+              <div class="article-content" itemprop="articleBody">
+                <h2 id="WWW-Server-使用手冊" class="article-heading"><a href="#WWW-Server-使用手冊" class="headerlink" title="WWW Server 使用手冊"></a>WWW Server 使用手冊<a class="article-anchor" href="#WWW-Server-使用手冊" aria-hidden="true"></a></h2><h3 id="注意事項" class="article-heading"><a href="#注意事項" class="headerlink" title="注意事項"></a>注意事項<a class="article-anchor" href="#注意事項" aria-hidden="true"></a></h3><ul>
+<li>不可放置非法物品且供人下載，機房有權可以刪除非法物</li>
+</ul>
+<h3 id="支援服務" class="article-heading"><a href="#支援服務" class="headerlink" title="支援服務"></a>支援服務<a class="article-anchor" href="#支援服務" aria-hidden="true"></a></h3><ul>
+<li>cgi</li>
+<li>php</li>
+</ul>
+<h3 id="如何建立-放置自己的-HomePage？" class="article-heading"><a href="#如何建立-放置自己的-HomePage？" class="headerlink" title="如何建立/放置自己的 HomePage？"></a>如何建立/放置自己的 HomePage？<a class="article-anchor" href="#如何建立-放置自己的-HomePage？" aria-hidden="true"></a></h3><p><strong>SSH</strong></p>
+<ol>
+<li><p>請連線至任一工作站，並到自己的家目錄下，建立 WWW 目錄。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkdir WWW</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>將網頁放入 WWW 目錄。</p>
+<ul>
+<li>首頁檔案必需為：index.html index.php index.shtml</li>
+</ul>
+</li>
+</ol>
+<p><strong>FTP 上傳 (For Windows 使用者, 感謝 cct96u 提供)</strong></p>
+<ol>
+<li>開啟任意一個資料夾, 網址列上打 <a href="ftp://csie0.cs.ccu.edu.tw" target="_blank" rel="noopener">ftp://csie0.cs.ccu.edu.tw</a></li>
+<li>此時會出現一個方塊說「FTP 資料夾錯誤」, 按“確定”跳過它.</li>
+<li>接者在空白處按右鍵，選「登入身分」, 輸入你的系計中的帳號密碼即可登入</li>
+<li>最後建立一個 WWW 資料夾, 再將網站放進 WWW 資料夾內即可<ul>
+<li>首頁檔案必需為：index.html index.php index.shtml</li>
+</ul>
+</li>
+</ol>
+<h3 id="使用者的-URL-為何？" class="article-heading"><a href="#使用者的-URL-為何？" class="headerlink" title="使用者的 URL 為何？"></a>使用者的 URL 為何？<a class="article-anchor" href="#使用者的-URL-為何？" aria-hidden="true"></a></h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">http://www.cs.ccu.edu.tw/~username/ (username 為你個人使用的帳號)</span><br></pre></td></tr></table></figure>
+<h3 id="使用者如何執行自己的php程式？" class="article-heading"><a href="#使用者如何執行自己的php程式？" class="headerlink" title="使用者如何執行自己的php程式？"></a>使用者如何執行自己的php程式？<a class="article-anchor" href="#使用者如何執行自己的php程式？" aria-hidden="true"></a></h3><ol>
+<li>程式副檔名為.php</li>
+<li>將程式放在 WWW 目錄下任一地方</li>
+</ol>
+<p><strong>範例</strong><br>假設 llh91 在 WWW 目錄下有個 xxx.php 的程式，用 browser 執行 PHP 的方式如下:<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">http://www.cs.cs.ccu.edu.tw/~llh91/xxx.php</span><br></pre></td></tr></table></figure></p>
+<h3 id="使用者如何執行自己的cgi程式？" class="article-heading"><a href="#使用者如何執行自己的cgi程式？" class="headerlink" title="使用者如何執行自己的cgi程式？"></a>使用者如何執行自己的cgi程式？<a class="article-anchor" href="#使用者如何執行自己的cgi程式？" aria-hidden="true"></a></h3><ol>
+<li>程式副檔名必須是 .cgi</li>
+<li>請到自己的根目錄下，在 WWW 目錄底下建立 cgi-bin 目錄 (必需先建立 WWW 目錄)</li>
+<li>將程式放在WWW目錄底下的cgi-bin目錄下</li>
+</ol>
+<p><strong>範例</strong><br>假設 llh91 在 WWW/cgi-bin 下有一個 xxx.cgi 的程式,用 browser 執行方式如下:<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">http://www.cs.ccu.edu.tw/~llh91/cgi-bin/xxx.cgi</span><br></pre></td></tr></table></figure></p>
+<p><strong>平台相異性</strong><br>上述 <a href="http://www.cs.ccu.edu.tw" target="_blank" rel="noopener">http://www.cs.ccu.edu.tw</a> 主機為 FreeBSD 作業系統<br>系上另外提供 Linux WWW server： <a href="http://linux.cs.ccu.edu.tw/" target="_blank" rel="noopener">http://linux.cs.ccu.edu.tw/</a></p>
+<p>因此請在 linux.cs 上面編譯 cgi 程式的系上成員，使用連結：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">http://linux.cs.ccu.edu.tw/~llh91/cgi-bin/xxx.cgi</span><br></pre></td></tr></table></figure></p>
+<p>而在 csie*.cs 上面編譯 cgi 程式的系上成員，則使用原本連結：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">http://www.cs.ccu.edu.tw/~llh91/cgi-bin/xxx.cgi</span><br></pre></td></tr></table></figure></p>
+<h2 id="WWW2-Server-使用手冊" class="article-heading"><a href="#WWW2-Server-使用手冊" class="headerlink" title="WWW2 Server 使用手冊"></a>WWW2 Server 使用手冊<a class="article-anchor" href="#WWW2-Server-使用手冊" aria-hidden="true"></a></h2><h3 id="注意事項-1" class="article-heading"><a href="#注意事項-1" class="headerlink" title="注意事項"></a>注意事項<a class="article-anchor" href="#注意事項-1" aria-hidden="true"></a></h3><p>支援 WWW Server，當 WWW Server 負載過高時，可以使用 WWW2 Server 替代之。<br>不可放置非法物品且供人下載，機房有權可以刪除非法物。</p>
+<h3 id="支援服務-1" class="article-heading"><a href="#支援服務-1" class="headerlink" title="支援服務"></a>支援服務<a class="article-anchor" href="#支援服務-1" aria-hidden="true"></a></h3><ul>
+<li>cgi</li>
+<li>php</li>
+</ul>
+<h3 id="使用者的-URL-為何？-1" class="article-heading"><a href="#使用者的-URL-為何？-1" class="headerlink" title="使用者的 URL 為何？"></a>使用者的 URL 為何？<a class="article-anchor" href="#使用者的-URL-為何？-1" aria-hidden="true"></a></h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">http://www2.cs.ccu.edu.tw/~username/ (username 為你個人使用的帳號)</span><br></pre></td></tr></table></figure>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2022-03-09T15:05:30.935Z" itemprop="dateModified">上次更新：2022-03-09</time>
+                <a href="workstation.html" class="article-footer-prev" title="工作站"><i class="fa fa-chevron-left"></i><span>上一頁</span></a><a href="mail.html" class="article-footer-next" title="Mail"><span>下一頁</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+              
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              <strong class="sidebar-title">目錄</strong>
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#WWW-Server-使用手冊"><span class="toc-text">WWW Server 使用手冊</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#注意事項"><span class="toc-text">注意事項</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#支援服務"><span class="toc-text">支援服務</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#如何建立-放置自己的-HomePage？"><span class="toc-text">如何建立/放置自己的 HomePage？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用者的-URL-為何？"><span class="toc-text">使用者的 URL 為何？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用者如何執行自己的php程式？"><span class="toc-text">使用者如何執行自己的php程式？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用者如何執行自己的cgi程式？"><span class="toc-text">使用者如何執行自己的cgi程式？</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#WWW2-Server-使用手冊"><span class="toc-text">WWW2 Server 使用手冊</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#注意事項-1"><span class="toc-text">注意事項</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#支援服務-1"><span class="toc-text">支援服務</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#使用者的-URL-為何？-1"><span class="toc-text">使用者的 URL 為何？</span></a></li></ol></li></ol>
+              <a href="#" id="article-toc-top">回到頁首</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner">
+    <strong class="sidebar-title">提供服務</strong><a href="index.html" class="sidebar-link">概覽</a><strong class="sidebar-title">主要伺服器</strong><a href="workstation.html" class="sidebar-link">工作站</a><a href="www.html" class="sidebar-link current">WWW</a><a href="mail.html" class="sidebar-link">Mail</a><a href="vpn.html" class="sidebar-link">VPN</a><a href="vpn2.html" class="sidebar-link">VPN2</a><a href="turnin.html" class="sidebar-link">Turnin</a><a href="alumni.html" class="sidebar-link">Alumni</a><a href="mysql.html" class="sidebar-link">MySQL</a><strong class="sidebar-title">資工系網路</strong><a href="rules.html" class="sidebar-link">相關規定</a><a href="ip.html" class="sidebar-link">實驗室申請IP申請程序</a><a href="domain.html" class="sidebar-link">系上 Domain Name 異動須知</a><a href="wireless.html" class="sidebar-link">無線網路</a><strong class="sidebar-title">其他</strong><a href="external.html" class="sidebar-link">外系生</a><a href="contact.html" class="sidebar-link">聯絡窗口</a>
+  </div>
+</aside>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      &copy; 2022 <span style="font-weight: bold;">lab401</span><br>
+      Powered by <a href="https://hexo.io" target="_blank">Hexo.</a>
+    </div>
+    <div id="footer-links">
+      <a href="/about/" class="footer-link"><i class="fa fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="/zh-tw/docs/" class="mobile-nav-link">教學</a><a href="/about/" class="mobile-nav-link">關於</a>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+      <strong class="mobile-nav-title">提供服務</strong><a href="index.html" class="mobile-nav-link">概覽</a><strong class="mobile-nav-title">主要伺服器</strong><a href="workstation.html" class="mobile-nav-link">工作站</a><a href="www.html" class="mobile-nav-link current">WWW</a><a href="mail.html" class="mobile-nav-link">Mail</a><a href="vpn.html" class="mobile-nav-link">VPN</a><a href="vpn2.html" class="mobile-nav-link">VPN2</a><a href="turnin.html" class="mobile-nav-link">Turnin</a><a href="alumni.html" class="mobile-nav-link">Alumni</a><a href="mysql.html" class="mobile-nav-link">MySQL</a><strong class="mobile-nav-title">資工系網路</strong><a href="rules.html" class="mobile-nav-link">相關規定</a><a href="ip.html" class="mobile-nav-link">實驗室申請IP申請程序</a><a href="domain.html" class="mobile-nav-link">系上 Domain Name 異動須知</a><a href="wireless.html" class="mobile-nav-link">無線網路</a><strong class="mobile-nav-title">其他</strong><a href="external.html" class="mobile-nav-link">外系生</a><a href="contact.html" class="mobile-nav-link">聯絡窗口</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>正體中文</span></span>
+    <select id="mobile-lang-select" data-canonical="docs/www.html">
+      
+        <option value="zh-tw" selected>正體中文</option>
+      
+    </select>
+  </div>
+</nav>
+  <!-- Scripts -->
+<!-- build:js build/js/main.js -->
+<script src="/js/lang_select.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/mobile_nav.js"></script>
+<!-- endbuild -->
+
+<!-- Algolia -->
+
+
+</body>
+</html>
