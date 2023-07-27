@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head prefix="og: http://ogp.me/ns#"><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  <title>Turnin | 401site</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Alternative links -->
+  
+    
+      <link rel="alternative" hreflang="zh-tw" href="https://setsal.github.io/zh-tw/docs/turnin.html">
+    
+  
+  <!-- Icon -->
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  <link rel="stylesheet" href="/css/navy.css">
+  <!-- endbuild -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+</head>
+
+<body>
+  <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      <a href="/" id="logo">Hexo</a>
+    </h1>
+    <nav id="main-nav">
+      <a href="/zh-tw/docs/" class="main-nav-link">教學</a><a href="/about/" class="main-nav-link">關於</a>
+    </nav>
+    <div id="lang-select-wrap">
+      <label id="lang-select-label"><i class="fa fa-globe"></i><span>正體中文</span></label>
+      <select id="lang-select" data-canonical="docs/turnin.html">
+        
+          <option value="zh-tw" selected>正體中文</option>
+        
+      </select>
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
+    <div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <header class="article-header">
+                <h1 class="article-title" itemprop="name">Turnin</h1>
+              </header>
+              <div class="article-content" itemprop="articleBody">
+                <h2 id="學生-使用-Turnin-繳交作業" class="article-heading"><a href="#學生-使用-Turnin-繳交作業" class="headerlink" title="學生 - 使用 Turnin 繳交作業"></a>學生 - 使用 Turnin 繳交作業<a class="article-anchor" href="#學生-使用-Turnin-繳交作業" aria-hidden="true"></a></h2><h3 id="繳交作業" class="article-heading"><a href="#繳交作業" class="headerlink" title="繳交作業"></a>繳交作業<a class="article-anchor" href="#繳交作業" aria-hidden="true"></a></h3><p>在工作站上輸入指令：<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">turnin 作業目錄 files...</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li><strong>作業目錄：</strong><br>由助教指定，每次作業會放在不同的目錄下，如資料結構的第一個作業可能會叫 「csds.hw1」</li>
+</ul>
+<ul>
+<li><strong>files：</strong><br>作業檔案，可以是數個檔案，如 「hw1.c hw1.h readme」</li>
+</ul>
+<ul>
+<li><strong>範例：</strong><br>將 hw1.c, hw1.h, 及 readme 複製到助教所指定的 csds.hw1 目錄下。<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">turnin csds.hw1 hw1.c hw1.h readme</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="查看作業繳交狀態" class="article-heading"><a href="#查看作業繳交狀態" class="headerlink" title="查看作業繳交狀態"></a>查看作業繳交狀態<a class="article-anchor" href="#查看作業繳交狀態" aria-hidden="true"></a></h3><p>當作業繳交後，可使用此指令查看作業是否繳交成功：<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">turnin -ls 作業目錄</span><br></pre></td></tr></table></figure></p>
+<h3 id="刪除已交檔案" class="article-heading"><a href="#刪除已交檔案" class="headerlink" title="刪除已交檔案"></a>刪除已交檔案<a class="article-anchor" href="#刪除已交檔案" aria-hidden="true"></a></h3><p>使用此指令可刪除所有已繳交的檔案：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">turnin -rm 作業目錄</span><br></pre></td></tr></table></figure></p>
+<p><br></p>
+<h2 id="助教-申請與設定-Turnin" class="article-heading"><a href="#助教-申請與設定-Turnin" class="headerlink" title="助教 - 申請與設定 Turnin"></a>助教 - 申請與設定 Turnin<a class="article-anchor" href="#助教-申請與設定-Turnin" aria-hidden="true"></a></h2><h3 id="申請" class="article-heading"><a href="#申請" class="headerlink" title="申請"></a>申請<a class="article-anchor" href="#申請" aria-hidden="true"></a></h3><p>申請 turnin 目錄時請附下列資料：</p>
+<ol>
+<li>課程代碼</li>
+<li>課程名稱</li>
+<li>課程教授姓名及帳號</li>
+<li>課程助教姓名及帳號</li>
+<li>root 助教（可選）</li>
+</ol>
+<ul>
+<li><strong>說明：</strong><ul>
+<li>課程助教：將加入該課程專屬的 group</li>
+<li>root 助教：如沒有指定 root 助教，則僅有教授有 turnin 設定權限。為了分擔教授的工作，可指定一位 root 助教獲得設定權限 turnin。</li>
+<li>上述帳號皆為教授與助教固有之工作站帳號。</li>
+<li>申請後 SA 會回函通知在 <code>/Turnin</code> 下所建立的課程目錄為何，教授或 root 助教可以自行到工作站的 <code>/Turnin/課程目錄</code> 下建立作業目錄，並記得設定權限。</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>範例：</strong><ul>
+<li>課程代碼： 4102062</li>
+<li>課程名稱： Data Structure</li>
+<li>課程教授： 吳昇(sw)</li>
+<li>課程助教： (ssy89)、(hrs89)</li>
+<li>root 助教： (ssy89)</li>
+</ul>
+</li>
+</ul>
+<h3 id="指定作業目錄（以課程目錄-csds-設定-hw1-為例）" class="article-heading"><a href="#指定作業目錄（以課程目錄-csds-設定-hw1-為例）" class="headerlink" title="指定作業目錄（以課程目錄 csds 設定 hw1 為例）"></a>指定作業目錄（以課程目錄 csds 設定 hw1 為例）<a class="article-anchor" href="#指定作業目錄（以課程目錄-csds-設定-hw1-為例）" aria-hidden="true"></a></h3><ol>
+<li>教授或 root 助教登入工作站。</li>
+<li>到 <code>/Turnin/csds</code> 下，建立作業目錄 hw1。</li>
+<li>指定 hw1 為作業目錄 csds.hw1 的存放處，讓學生可以交作業進來：<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">turnin -s csds.hw1 /Turnin/csds/hw1</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>如此，當修課學生以 turnin 繳交至作業目錄 csds.hw1 時，其檔案便會被複製到 <code>/Turnin/csds/hw1</code>。</p>
+<h3 id="設定助教批改作業" class="article-heading"><a href="#設定助教批改作業" class="headerlink" title="設定助教批改作業"></a>設定助教批改作業<a class="article-anchor" href="#設定助教批改作業" aria-hidden="true"></a></h3><p>用 <code>chmod</code> 調整作業存放處的 group 權限為 rwx ，如此助教才有權限進入其中批改作業。<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">chmod g+rwx /Turnin/csds/hw1</span><br></pre></td></tr></table></figure></p>
+<h3 id="關閉作業目錄" class="article-heading"><a href="#關閉作業目錄" class="headerlink" title="關閉作業目錄"></a>關閉作業目錄<a class="article-anchor" href="#關閉作業目錄" aria-hidden="true"></a></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">turnin -d csds.hw1</span><br></pre></td></tr></table></figure>
+<h3 id="查詢作業目錄是否可以-turnin" class="article-heading"><a href="#查詢作業目錄是否可以-turnin" class="headerlink" title="查詢作業目錄是否可以 turnin"></a>查詢作業目錄是否可以 turnin<a class="article-anchor" href="#查詢作業目錄是否可以-turnin" aria-hidden="true"></a></h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">turnin -l csds.hw1</span><br></pre></td></tr></table></figure>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2023-07-26T18:30:20.481Z" itemprop="dateModified">上次更新：2023-07-26</time>
+                <a href="vpn2.html" class="article-footer-prev" title="VPN2"><i class="fa fa-chevron-left"></i><span>上一頁</span></a><a href="alumni.html" class="article-footer-next" title="Alumni"><span>下一頁</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+              
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              <strong class="sidebar-title">目錄</strong>
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#學生-使用-Turnin-繳交作業"><span class="toc-text">學生 - 使用 Turnin 繳交作業</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#繳交作業"><span class="toc-text">繳交作業</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#查看作業繳交狀態"><span class="toc-text">查看作業繳交狀態</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#刪除已交檔案"><span class="toc-text">刪除已交檔案</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#助教-申請與設定-Turnin"><span class="toc-text">助教 - 申請與設定 Turnin</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#申請"><span class="toc-text">申請</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#指定作業目錄（以課程目錄-csds-設定-hw1-為例）"><span class="toc-text">指定作業目錄（以課程目錄 csds 設定 hw1 為例）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#設定助教批改作業"><span class="toc-text">設定助教批改作業</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#關閉作業目錄"><span class="toc-text">關閉作業目錄</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#查詢作業目錄是否可以-turnin"><span class="toc-text">查詢作業目錄是否可以 turnin</span></a></li></ol></li></ol>
+              <a href="#" id="article-toc-top">回到頁首</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner">
+    <strong class="sidebar-title">提供服務</strong><a href="index.html" class="sidebar-link">概覽</a><strong class="sidebar-title">主要伺服器</strong><a href="workstation.html" class="sidebar-link">工作站</a><a href="www.html" class="sidebar-link">WWW</a><a href="mail.html" class="sidebar-link">Mail</a><a href="vpn.html" class="sidebar-link">VPN</a><a href="vpn2.html" class="sidebar-link">VPN2</a><a href="turnin.html" class="sidebar-link current">Turnin</a><a href="alumni.html" class="sidebar-link">Alumni</a><a href="mysql.html" class="sidebar-link">MySQL</a><strong class="sidebar-title">資工系網路</strong><a href="rules.html" class="sidebar-link">相關規定</a><a href="ip.html" class="sidebar-link">實驗室申請IP申請程序</a><a href="domain.html" class="sidebar-link">系上 Domain Name 異動須知</a><a href="wireless.html" class="sidebar-link">無線網路</a><strong class="sidebar-title">其他</strong><a href="external.html" class="sidebar-link">外系生</a><a href="contact.html" class="sidebar-link">聯絡窗口</a>
+  </div>
+</aside>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      &copy; 2023 <span style="font-weight: bold;">lab401</span><br>
+      Powered by <a href="https://hexo.io" target="_blank">Hexo.</a>
+    </div>
+    <div id="footer-links">
+      <a href="/about/" class="footer-link"><i class="fa fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="/zh-tw/docs/" class="mobile-nav-link">教學</a><a href="/about/" class="mobile-nav-link">關於</a>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+      <strong class="mobile-nav-title">提供服務</strong><a href="index.html" class="mobile-nav-link">概覽</a><strong class="mobile-nav-title">主要伺服器</strong><a href="workstation.html" class="mobile-nav-link">工作站</a><a href="www.html" class="mobile-nav-link">WWW</a><a href="mail.html" class="mobile-nav-link">Mail</a><a href="vpn.html" class="mobile-nav-link">VPN</a><a href="vpn2.html" class="mobile-nav-link">VPN2</a><a href="turnin.html" class="mobile-nav-link current">Turnin</a><a href="alumni.html" class="mobile-nav-link">Alumni</a><a href="mysql.html" class="mobile-nav-link">MySQL</a><strong class="mobile-nav-title">資工系網路</strong><a href="rules.html" class="mobile-nav-link">相關規定</a><a href="ip.html" class="mobile-nav-link">實驗室申請IP申請程序</a><a href="domain.html" class="mobile-nav-link">系上 Domain Name 異動須知</a><a href="wireless.html" class="mobile-nav-link">無線網路</a><strong class="mobile-nav-title">其他</strong><a href="external.html" class="mobile-nav-link">外系生</a><a href="contact.html" class="mobile-nav-link">聯絡窗口</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>正體中文</span></span>
+    <select id="mobile-lang-select" data-canonical="docs/turnin.html">
+      
+        <option value="zh-tw" selected>正體中文</option>
+      
+    </select>
+  </div>
+</nav>
+  <!-- Scripts -->
+<!-- build:js build/js/main.js -->
+<script src="/js/lang_select.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/mobile_nav.js"></script>
+<!-- endbuild -->
+
+<!-- Algolia -->
+
+
+</body>
+</html>

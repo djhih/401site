@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head prefix="og: http://ogp.me/ns#"><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  <title>Workstation | 401site</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Alternative links -->
+  
+    
+      <link rel="alternative" hreflang="zh-tw" href="https://setsal.github.io/zh-tw/docs/workstation.html">
+    
+  
+  <!-- Icon -->
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  <link rel="stylesheet" href="/css/navy.css">
+  <!-- endbuild -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+</head>
+
+<body>
+  <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      <a href="/" id="logo">Hexo</a>
+    </h1>
+    <nav id="main-nav">
+      <a href="/zh-tw/docs/" class="main-nav-link">教學</a><a href="/about/" class="main-nav-link">關於</a>
+    </nav>
+    <div id="lang-select-wrap">
+      <label id="lang-select-label"><i class="fa fa-globe"></i><span>正體中文</span></label>
+      <select id="lang-select" data-canonical="docs/workstation.html">
+        
+          <option value="zh-tw" selected>正體中文</option>
+        
+      </select>
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
+    <div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <header class="article-header">
+                <h1 class="article-title" itemprop="name">Workstation</h1>
+              </header>
+              <div class="article-content" itemprop="articleBody">
+                <h2 id="工作站" class="article-heading"><a href="#工作站" class="headerlink" title="工作站"></a>工作站<a class="article-anchor" href="#工作站" aria-hidden="true"></a></h2><p>目前系上提供一台 FreeBSD 工作站與一台 Linux 工作站：</p>
+<ul>
+<li><p><strong>FreeBSD</strong></p>
+<ul>
+<li>daemon.cs.ccu.edu.tw</li>
+</ul>
+</li>
+<li><p><strong>Linux</strong></p>
+<ul>
+<li>tux.cs.ccu.edu.tw</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="使用者帳號" class="article-heading"><a href="#使用者帳號" class="headerlink" title="使用者帳號"></a>使用者帳號<a class="article-anchor" href="#使用者帳號" aria-hidden="true"></a></h2><h3 id="本系生" class="article-heading"><a href="#本系生" class="headerlink" title="本系生"></a>本系生<a class="article-anchor" href="#本系生" aria-hidden="true"></a></h3><ul>
+<li>本系生的帳號資訊會在入學後以紙本告知。</li>
+<li>五台工作站的帳號與家目錄內的資料皆是共通的。</li>
+<li>只要依據需求及工作站負載狀況，選擇合適的機器來使用。</li>
+</ul>
+<h3 id="外系生" class="article-heading"><a href="#外系生" class="headerlink" title="外系生"></a>外系生<a class="article-anchor" href="#外系生" aria-hidden="true"></a></h3><ul>
+<li>外系生修習資工系課程時，可在該學期至資工系系辦申請帳號。</li>
+<li>詳細說明請參閱 <a href="./external.html">外系生帳號申請</a> 。</li>
+</ul>
+<hr>
+<h2 id="連線" class="article-heading"><a href="#連線" class="headerlink" title="連線"></a>連線<a class="article-anchor" href="#連線" aria-hidden="true"></a></h2><h3 id="SSH" class="article-heading"><a href="#SSH" class="headerlink" title="SSH"></a>SSH<a class="article-anchor" href="#SSH" aria-hidden="true"></a></h3><ul>
+<li><p>請以任何支援 SSH protocol version 2 的程式來登入工作站。</p>
+<ul>
+<li>Windows 使用者可使用如 PuTTY, PieTTY, MobaXterm, …。</li>
+<li>Unix-like 使用者可以使用 OpenSSH, Dropbear, …。<br><br></li>
+</ul>
+</li>
+<li><p>登入方式：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ssh 帳號名稱@工作站位址</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>範例：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ssh user@tux.cs.ccu.edu.tw</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="FTP" class="article-heading"><a href="#FTP" class="headerlink" title="FTP"></a>FTP<a class="article-anchor" href="#FTP" aria-hidden="true"></a></h3><ul>
+<li>建議使用 SFTP 傳輸檔案以增加安全性。</li>
+</ul>
+<h3 id="SFTP" class="article-heading"><a href="#SFTP" class="headerlink" title="SFTP"></a>SFTP<a class="article-anchor" href="#SFTP" aria-hidden="true"></a></h3><ul>
+<li>所有工作站皆有支援 SFTP 協定。</li>
+</ul>
+<hr>
+<h2 id="Quota" class="article-heading"><a href="#Quota" class="headerlink" title="Quota"></a>Quota<a class="article-anchor" href="#Quota" aria-hidden="true"></a></h2><p>系上儲存空間有限，故實施以下限制：</p>
+<ul>
+<li>家目錄容量限制 ( ~/ ) :<ul>
+<li>大學部在校生：10 GB</li>
+<li>碩士班在校生： 3 GB</li>
+<li>畢業大學部、碩士班校友：1 GB</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Quota 限制有緩衝 0.5 GB，即在超過 quota，但未超出 0.5 GB 時，有三日緩衝時間，如超過上限或超過三日緩衝時間，將無法再進行資料寫入。</li>
+</ul>
+<ul>
+<li><p>查看目前用量與 quota 限制：</p>
+<ul>
+<li><p>FreeBSD</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">quota -h</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Linux</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">quota -s</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="更改密碼" class="article-heading"><a href="#更改密碼" class="headerlink" title="更改密碼"></a>更改密碼<a class="article-anchor" href="#更改密碼" aria-hidden="true"></a></h2><p>需至 tux.cs.ccu.edu.tw</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt; passwd</span><br></pre></td></tr></table></figure>
+<h2 id="更改-Shell" class="article-heading"><a href="#更改-Shell" class="headerlink" title="更改 Shell"></a>更改 Shell<a class="article-anchor" href="#更改-Shell" aria-hidden="true"></a></h2><p>需至 tux.cs.ccu.edu.tw</p>
+<p>輸入密碼驗證身份後，即可更換</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt; chsh.ldap</span><br></pre></td></tr></table></figure>
+<h2 id="外系申請帳號" class="article-heading"><a href="#外系申請帳號" class="headerlink" title="外系申請帳號"></a>外系申請帳號<a class="article-anchor" href="#外系申請帳號" aria-hidden="true"></a></h2><h5 id="由於-csie2-已退役，目前是給外系生能用-tux-daemon" class="article-heading"><a href="#由於-csie2-已退役，目前是給外系生能用-tux-daemon" class="headerlink" title="由於 csie2 已退役，目前是給外系生能用 tux,daemon"></a>由於 csie2 已退役，目前是給外系生能用 tux,daemon<a class="article-anchor" href="#由於-csie2-已退役，目前是給外系生能用-tux-daemon" aria-hidden="true"></a></h5><h5 id="可能從下學期開始，會額外架一台給外系生使用" class="article-heading"><a href="#可能從下學期開始，會額外架一台給外系生使用" class="headerlink" title="可能從下學期開始，會額外架一台給外系生使用"></a>可能從下學期開始，會額外架一台給外系生使用<a class="article-anchor" href="#可能從下學期開始，會額外架一台給外系生使用" aria-hidden="true"></a></h5><h5 id="需刪除原先-csie2-的部分" class="article-heading"><a href="#需刪除原先-csie2-的部分" class="headerlink" title="需刪除原先 csie2 的部分"></a>需刪除原先 csie2 的部分<a class="article-anchor" href="#需刪除原先-csie2-的部分" aria-hidden="true"></a></h5>
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2023-07-26T18:30:20.452Z" itemprop="dateModified">上次更新：2023-07-26</time>
+                <a href="index.html" class="article-footer-prev" title="概覽"><i class="fa fa-chevron-left"></i><span>上一頁</span></a><a href="www.html" class="article-footer-next" title="WWW"><span>下一頁</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+              
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              <strong class="sidebar-title">目錄</strong>
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#工作站"><span class="toc-text">工作站</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#使用者帳號"><span class="toc-text">使用者帳號</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#本系生"><span class="toc-text">本系生</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#外系生"><span class="toc-text">外系生</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#連線"><span class="toc-text">連線</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#SSH"><span class="toc-text">SSH</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#FTP"><span class="toc-text">FTP</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SFTP"><span class="toc-text">SFTP</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Quota"><span class="toc-text">Quota</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#更改密碼"><span class="toc-text">更改密碼</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#更改-Shell"><span class="toc-text">更改 Shell</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#外系申請帳號"><span class="toc-text">外系申請帳號</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#由於-csie2-已退役，目前是給外系生能用-tux-daemon"><span class="toc-text">由於 csie2 已退役，目前是給外系生能用 tux,daemon</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#可能從下學期開始，會額外架一台給外系生使用"><span class="toc-text">可能從下學期開始，會額外架一台給外系生使用</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#需刪除原先-csie2-的部分"><span class="toc-text">需刪除原先 csie2 的部分</span></a></li></ol></li></ol></li></ol></li></ol>
+              <a href="#" id="article-toc-top">回到頁首</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner">
+    <strong class="sidebar-title">提供服務</strong><a href="index.html" class="sidebar-link">概覽</a><strong class="sidebar-title">主要伺服器</strong><a href="workstation.html" class="sidebar-link current">工作站</a><a href="www.html" class="sidebar-link">WWW</a><a href="mail.html" class="sidebar-link">Mail</a><a href="vpn.html" class="sidebar-link">VPN</a><a href="vpn2.html" class="sidebar-link">VPN2</a><a href="turnin.html" class="sidebar-link">Turnin</a><a href="alumni.html" class="sidebar-link">Alumni</a><a href="mysql.html" class="sidebar-link">MySQL</a><strong class="sidebar-title">資工系網路</strong><a href="rules.html" class="sidebar-link">相關規定</a><a href="ip.html" class="sidebar-link">實驗室申請IP申請程序</a><a href="domain.html" class="sidebar-link">系上 Domain Name 異動須知</a><a href="wireless.html" class="sidebar-link">無線網路</a><strong class="sidebar-title">其他</strong><a href="external.html" class="sidebar-link">外系生</a><a href="contact.html" class="sidebar-link">聯絡窗口</a>
+  </div>
+</aside>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      &copy; 2023 <span style="font-weight: bold;">lab401</span><br>
+      Powered by <a href="https://hexo.io" target="_blank">Hexo.</a>
+    </div>
+    <div id="footer-links">
+      <a href="/about/" class="footer-link"><i class="fa fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="/zh-tw/docs/" class="mobile-nav-link">教學</a><a href="/about/" class="mobile-nav-link">關於</a>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+      <strong class="mobile-nav-title">提供服務</strong><a href="index.html" class="mobile-nav-link">概覽</a><strong class="mobile-nav-title">主要伺服器</strong><a href="workstation.html" class="mobile-nav-link current">工作站</a><a href="www.html" class="mobile-nav-link">WWW</a><a href="mail.html" class="mobile-nav-link">Mail</a><a href="vpn.html" class="mobile-nav-link">VPN</a><a href="vpn2.html" class="mobile-nav-link">VPN2</a><a href="turnin.html" class="mobile-nav-link">Turnin</a><a href="alumni.html" class="mobile-nav-link">Alumni</a><a href="mysql.html" class="mobile-nav-link">MySQL</a><strong class="mobile-nav-title">資工系網路</strong><a href="rules.html" class="mobile-nav-link">相關規定</a><a href="ip.html" class="mobile-nav-link">實驗室申請IP申請程序</a><a href="domain.html" class="mobile-nav-link">系上 Domain Name 異動須知</a><a href="wireless.html" class="mobile-nav-link">無線網路</a><strong class="mobile-nav-title">其他</strong><a href="external.html" class="mobile-nav-link">外系生</a><a href="contact.html" class="mobile-nav-link">聯絡窗口</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>正體中文</span></span>
+    <select id="mobile-lang-select" data-canonical="docs/workstation.html">
+      
+        <option value="zh-tw" selected>正體中文</option>
+      
+    </select>
+  </div>
+</nav>
+  <!-- Scripts -->
+<!-- build:js build/js/main.js -->
+<script src="/js/lang_select.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/mobile_nav.js"></script>
+<!-- endbuild -->
+
+<!-- Algolia -->
+
+
+</body>
+</html>
