@@ -1,19 +1,17 @@
 title: VPN 使用手冊
 ---
 ## 規範
-{% blockquote %}
-本系 VPN 服務僅提供系上師生進行相關文獻閱覽或在校相關服務使用
+<blockquote>本系 VPN 服務僅提供系上師生進行相關文獻閱覽或在校相關服務使用
 
 由於服務性質因素，若有同學使用 VPN 進行對外攻擊或是大量下載之相關違規事項
 
 經查詢屬實，將停止同學系上帳號及工作站使用權力，還請同學切勿以身試法。
-{% endblockquote %}
+</blockquote>
 
 ## PPTP
-{% blockquote %}
-由於新版的 iOS 10 和 macOS Sierra 已經移除 PPTP 協定
+<blockquote>由於新版的 iOS 10 和 macOS Sierra 已經移除 PPTP 協定
 還請使用該版本以上的同學轉而使用 OpenVPN 的服務
-{% endblockquote %}
+</blockquote>
 
 以下教學以 windows 10 作為範例
 
