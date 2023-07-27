@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://setsal.github.io/"/>
-  <updated>2022-03-09T15:05:30.896Z</updated>
+  <updated>2023-07-26T18:30:20.420Z</updated>
   <id>https://setsal.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://setsal.github.io//2018/07/08/announce/"/>
     <id>https://setsal.github.io//2018/07/08/announce/</id>
     <published>2018-07-08T00:00:00.000Z</published>
-    <updated>2022-03-09T15:05:30.896Z</updated>
+    <updated>2023-07-26T18:30:20.420Z</updated>
     
     <content type="html"><![CDATA[<ul><li>2020-06-03 alan: 工作站 csie0,csie2,mcore8 預計於 2020/06/06 9~15 時進行系統更新，請避免於更新時段使用此三台工作站</li><li>2020-02-25 kia: vpn.cs 目前上游網路連線異常，目前正在和相關單位確認當中，若急需跳轉使用校內相關服務，還請透過 CCU VPN</li><li>2019-10-26 alan: NIS、workstation、mail、VPN 進行維護，會影響服務所有工作站，MAIL，VPN </li><li>2018-05-07 alan: Home NFS將於今晚9點進行維護，可能影響服務為所有工作站及 <a href="http://www.cs" target="_blank" rel="noopener">www.cs</a>, 請儘量避免使用，以免資料丟失。不會影響系上信箱收發信件。</li><li>2018-04-11 alan: Home NFS將於今晚9點暫時進行維修，可能影響服務：所有工作站及 <a href="http://www.cs" target="_blank" rel="noopener">www.cs</a>, 不會影響系上信箱收發信件</li><li>2017-12-11 setsal: mail.cs 開始 rainloop webmail 服務, 並支援手機板操作</li><li>2017-04-23 setsal: Mail 維修更新完畢，若有問題還請 mail 詢問</li><li>2017-02-20 mickey: quota 設定由於近日 Home NFS 異常，延至 2017-03-05 實施</li><li>2017-02-18 mickey: Home NFS 已恢復運作，因為多顆硬碟損毀無法回復，目前使用先前備份檔案，造成部分檔案流失，敬請見諒。</li><li>2016-10-23 setsal: vpn.cs 已恢復連線。</li><li>2016-10-21 setsal: vpn.cs 目前由於使用者使用不當產生資安疑慮，遭計中中毒斷線，在查明原因前，暫時無法進行復線動作。若急須跳轉使用校內相關服務，還請透過 CCU VPN。</li><li>2016-02-08 hwlin: vpn.cs 開始測試openvpn服務，設定檔可至 <a href="https://vpn.cs.ccu.edu.tw/" target="_blank" rel="noopener">https://vpn.cs.ccu.edu.tw/</a> 下載。</li><li>2016-01-19 mickey: 系上工作站於1/19 晚上10:00進行維護，屆時工作站暫時停止服務</li><li>2015-12-01 silenttulips: 系上無線網路CISE_AP將於12/1及12/8上午進行設備維護，屆時會有暫時無法使用之情形，敬請見諒。</li><li>2015-10-27 mickey: 工作站csie1已恢復正常連線</li><li>2015-10-20 mickey: 工作站csie1目前因為有同學使用不當，造成流量超過計中規定上限，遭計中超流斷線，在查明流量異常原因之前恕無法進行復線動作，如急需使用csie1，可先透過csie0 或 csie2連線至csie1</li><li>2015-09-03 mickey: Home NFS將於今晚11點暫時進行維修，可能影響服務有所有工作站及 <a href="http://www.cs" target="_blank" rel="noopener">www.cs</a>, 不會影響系上信箱收發信件</li><li>2015-07-02 yaya: ftp.cs 因為硬碟損毀無法回復，目前使用先前備份檔案，可能會有部分檔案流失，敬請見諒。</li><li>2015-04-08 yaya: Home NFS 將於+ 2015/04/11早上五點起進行更新，影響服務有所有工作站及 <a href="http://www.cs" target="_blank" rel="noopener">www.cs</a>, 不會影響系上信箱收發信件</li><li>2014-12-15 yaya: linux.cs 維修更新完畢，若有任何問題請 mail 詢問</li><li>2014-12-14 yaya: linux.cs 目前維修中，暫時關閉</li><li>2014-12-09 hwlin: linux、www、mysql、無線網路、Mail NFS 將在+ 2014/12/13晚上進行安全性更新</li><li>2014-02-23 yaya: vpn.cs.ccu.edu.tw 將從 + 2014/02/28 起封鎖對學校大學部宿舍區的連線</li><li>2009-11-11 terces: KMS.cs 暫時關閉</li><li>2009-10-04 terces: KMS.cs 開放測試</li><li>2009-08-07 nickle: FTP.CS 新增軟體套件 - Windows 7 professional</li><li>2009-05-06 nickle: FTP.CS 新增軟體套件 - Windows 7 RC</li><li>2009-04-06 nickle: FTP.CS 新增軟體套件 - Visual Studio Team System + 2008 Team Suite (X86)</li><li>2009-03-18 nickle: Blog.Cs 開放申請</li><li>2009-02-14 nickle: FTP.CS 新增軟體套件 - Windows XP Professional x64 with SP2</li><li>2009-02-14 nickle: FTP.CS 新增軟體套件 - Windows XP Tablet PC Edition + 2005</li><li>2009-02-14 bluesway: 新工作站 mcore8 上線 (140.123.101.235 / mcore8.cs.ccu.edu.tw)</li><li>2008-12-23 bluesway: csie0 版本更新為 FreeBSD 7.1-PRERELEASE</li></ul>]]></content>
     

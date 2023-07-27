@@ -222,8 +222,6 @@ body {
   background: url("/logo.svg");
   width: 50px;
   height: 50px;
-  -webkit-background-size: 50px 50px;
-  -moz-background-size: 50px 50px;
   background-size: 50px 50px;
   display: block;
 }
@@ -934,8 +932,11 @@ a.article-title:hover {
   background: url("../brand.png") center #000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
+<<<<<<< HEAD
   -webkit-background-size: cover;
   -moz-background-size: cover;
+=======
+>>>>>>> e271ece7e2fcba1a7ff79ed2c6d2a7aa74f164c6
   background-size: cover;
   z-index: -1;
 }
