@@ -141,12 +141,14 @@ hexo.extend.helper.register('canonical_path_for_nav', function() {
 });
 
 hexo.extend.helper.register('lang_name', function(lang) {
-  var data = this.site.data.languages[lang];
+  // var data = this.site.data.languages[lang];
+  var data = this.site.data.languages["zh-tw"];
   return data.name || data;
 });
 
 hexo.extend.helper.register('disqus_lang', function() {
-  var lang = this.page.lang;
+  // var lang = this.page.lang;
+  var lang = "zh-tw";
   var data = this.site.data.languages[lang];
 
   return data.disqus_lang || lang;

@@ -18,7 +18,7 @@ theme: navy
 deploy:
   type: git
   branch: production
-  repo: git@github.com:firecodev/401site.git
+  repo: git@github.com:2j4/401site.git
 
 highlight:
   enable: true

@@ -10,9 +10,10 @@ title: 關於我們
 
 + 指導老師：林柏青 老師
 + SA：
-    + 大三：曾睿銓 (Workstation, FTP, NFS, LDAP, NIS)
-    + 大三：呂宗哲 (401gate, Mail, Mail2, alumni, Radius, VPN)
-    + 大三：謝明湟 (WWW, MySQL, DNS)
+    + 廖翊廷 (Workstation, FTP, NFS, LDAP, NIS)
+    + 蕭文愷 (401gate, Mail, Mail2, alumni, Radius, VPN)
+    + 杜靖智 (WWW, MySQL, DNS)
+    
 
 + 退休 SA:
     + 簡誌寬 (FTP, Gallery, New service development)
@@ -44,7 +45,9 @@ title: 關於我們
     + 吳宗鴻 (Workstation, FTP, NFS, NIS)
     + 陳昱暢 (401gate, Mail, Mail2, alumni, Radius, VPN)
     + 康勝崴 (WWW, MySQL, DNS)
-
+    + 曾睿銓 (Workstation, FTP, NFS, LDAP, NIS)
+    + 呂宗哲 (401gate, Mail, Mail2, alumni, Radius, VPN)
+    + 謝明湟 (WWW, MySQL, DNS)
 
 ## 貢獻
 若對系統管理有興趣，歡迎加入系計中的行列！
