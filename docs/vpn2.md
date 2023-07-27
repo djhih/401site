@@ -1,13 +1,13 @@
 title: VPN2 FortiClient 使用說明
 ---
 ## 規範
-{% blockquote %}
+<blockquote>
 本系 VPN 服務僅提供系上師生進行相關文獻閱覽或在校相關服務使用
 
 由於服務性質因素，若有同學使用 VPN 進行對外攻擊或是大量下載之相關違規事項
 
 經查詢屬實，將停止同學系上帳號及工作站使用權力，還請同學切勿以身試法。
-{% endblockquote %}
+</blockquote>
 
 ## FortiClient VPN連線步驟
 ### 1. 進入以下網址下載並安裝forticlient
