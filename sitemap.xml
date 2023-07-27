@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://setsal.github.io/about/index.html</loc>
+    <loc>https://setsal.github.io/en/docs/index.html</loc>
     
-    <lastmod>2023-07-26T18:30:46.120Z</lastmod>
+    <lastmod>2023-07-27T09:48:50.091Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://setsal.github.io/zh-tw/index.html</loc>
+    <loc>https://setsal.github.io/about/index.html</loc>
     
-    <lastmod>2023-07-26T18:30:20.482Z</lastmod>
+    <lastmod>2023-07-26T18:30:46.120Z</lastmod>
     
   </url>
   
@@ -30,14 +30,14 @@
   </url>
   
   <url>
-    <loc>https://setsal.github.io/zh-tw/docs/wireless.html</loc>
+    <loc>https://setsal.github.io/zh-tw/index.html</loc>
     
-    <lastmod>2023-07-26T18:30:20.481Z</lastmod>
+    <lastmod>2023-07-26T18:30:20.482Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://setsal.github.io/zh-tw/docs/vpn2.html</loc>
+    <loc>https://setsal.github.io/zh-tw/docs/wireless.html</loc>
     
     <lastmod>2023-07-26T18:30:20.481Z</lastmod>
     
@@ -58,9 +58,9 @@
   </url>
   
   <url>
-    <loc>https://setsal.github.io/zh-tw/docs/mysql.html</loc>
+    <loc>https://setsal.github.io/zh-tw/docs/vpn2.html</loc>
     
-    <lastmod>2023-07-26T18:30:20.480Z</lastmod>
+    <lastmod>2023-07-26T18:30:20.481Z</lastmod>
     
   </url>
   
@@ -72,7 +72,7 @@
   </url>
   
   <url>
-    <loc>https://setsal.github.io/zh-tw/docs/mail.html</loc>
+    <loc>https://setsal.github.io/zh-tw/docs/mysql.html</loc>
     
     <lastmod>2023-07-26T18:30:20.480Z</lastmod>
     
@@ -80,6 +80,13 @@
   
   <url>
     <loc>https://setsal.github.io/zh-tw/docs/ip.html</loc>
+    
+    <lastmod>2023-07-26T18:30:20.480Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://setsal.github.io/zh-tw/docs/mail.html</loc>
     
     <lastmod>2023-07-26T18:30:20.480Z</lastmod>
     
@@ -121,14 +128,14 @@
   </url>
   
   <url>
-    <loc>https://setsal.github.io/en/index.html</loc>
+    <loc>https://setsal.github.io/index.html</loc>
     
     <lastmod>2023-07-26T18:30:20.453Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://setsal.github.io/index.html</loc>
+    <loc>https://setsal.github.io/en/index.html</loc>
     
     <lastmod>2023-07-26T18:30:20.453Z</lastmod>
     
@@ -149,9 +156,9 @@
   </url>
   
   <url>
-    <loc>https://setsal.github.io/en/docs/index.html</loc>
+    <loc>https://setsal.github.io/docs/wireless.html</loc>
     
-    <lastmod>2023-07-26T18:30:20.452Z</lastmod>
+    <lastmod>2023-07-26T18:30:20.451Z</lastmod>
     
   </url>
   
@@ -163,21 +170,14 @@
   </url>
   
   <url>
-    <loc>https://setsal.github.io/docs/wireless.html</loc>
-    
-    <lastmod>2023-07-26T18:30:20.451Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://setsal.github.io/docs/rules.html</loc>
+    <loc>https://setsal.github.io/docs/turnin.html</loc>
     
     <lastmod>2023-07-26T18:30:20.450Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://setsal.github.io/docs/turnin.html</loc>
+    <loc>https://setsal.github.io/docs/rules.html</loc>
     
     <lastmod>2023-07-26T18:30:20.450Z</lastmod>
     
@@ -191,7 +191,7 @@
   </url>
   
   <url>
-    <loc>https://setsal.github.io/docs/ip.html</loc>
+    <loc>https://setsal.github.io/docs/mail.html</loc>
     
     <lastmod>2023-07-26T18:30:20.449Z</lastmod>
     
@@ -205,7 +205,7 @@
   </url>
   
   <url>
-    <loc>https://setsal.github.io/docs/mail.html</loc>
+    <loc>https://setsal.github.io/docs/ip.html</loc>
     
     <lastmod>2023-07-26T18:30:20.449Z</lastmod>
     
