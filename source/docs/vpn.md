@@ -95,7 +95,6 @@ export PATH=/usr/local/sbin:$PATH
 ```
 $ sudo openvpn /path/to/config/ccucsie.ovpn
 ```
-![](image/openvpn/terminal_3.png)
 
 4. 看到訊息 "Initialization Sequence Completed" 表示 VPN 連線已完成。
 ```
@@ -115,7 +114,6 @@ TLS_ERROR: BIO read tls_read_plaintext error
 TLS Error: TLS object -> incoming plaintext read error
 TLS Error: TLS handshake failed
 ``` 
-<br>
 這是因為我們這邊使用版本比較舊，會導致舊版加密協議被新版 openvpn client 阻擋，
 預計在這兩個月會更新 vpn 設定檔，到時會再發公告並需要至網頁下載新檔案，
 目前先提供給您暫時的解決方法：
@@ -133,4 +131,3 @@ TLS Error: TLS handshake failed
 若使用上有問題，請聯繫資工系計中信箱。
 - [About US](/about/)
 
-<i class="fa fa-edit fa-fw"></i> Last Edited: _2018/10/06 by setsal_, contributed by _silenttulips_
