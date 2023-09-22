@@ -9,35 +9,6 @@ title: VPN 使用手冊
 經查詢屬實，將停止同學系上帳號及工作站使用權力，還請同學切勿以身試法。
 </blockquote>
 
-## PPTP
-<blockquote>由於新版的 iOS 10 和 macOS Sierra 已經移除 PPTP 協定
-還請使用該版本以上的同學轉而使用 OpenVPN 的服務
-</blockquote>
-
-以下教學以 windows 10 作為範例
-
-0. 前往網際網路設定點選 VPN 選項
-
-<img src="image/pptp/pptp_0.png" width="50%" >
-
-1. 點選新增 VPN 連線，輸入如下圖相關資訊
-
-<img src="image/pptp/pptp_1.png" width="50%" >
-
-2. 設定完成後，點選頁面下方"變更介面卡設定"
-
-<img src="image/pptp/pptp_2.png" width="50%" >
-
-3. 右鍵點擊建立好之 VPN 介面卡, 選擇內容並切換到安全性的分頁
-
-<img src="image/pptp/pptp_3.png" >
-
-4. 依照下圖紅框指示進行設定，按下確定
-
-<img src="image/pptp/pptp_4.png" width="50%" >
-
-5. 選取該設定好之 VPN 連線，輸入系上工作站帳密即可成功連線
-
 ## OpenVPN
 
 ### Windows
@@ -137,10 +108,30 @@ Sun Nov 12 11:17:53 2017 Initialization Sequence Completed
 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
 ```
 
+## Notice
+如果 log 出現以下訊息而無法連線
+```
+OpenSSL: error:0A000086:SSL routines::certificate verify failed:
+TLS_ERROR: BIO read tls_read_plaintext error
+TLS Error: TLS object -> incoming plaintext read error
+TLS Error: TLS handshake failed
+``` 
+這是因為我們這邊使用版本比較舊，會導致舊版加密協議被新版 openvpn client 阻擋，
+預計在這兩個月會更新 vpn 設定檔，到時會再發公告並需要至網頁下載新檔案，
+目前先提供給您暫時的解決方法：
+
+
+* 在指令下新增參數降低安全等級
+```openvpn --config ccucsie.ovpn --tls-cipher DEFAULT:@SECLEVEL=0``` 
+
+* 在設定檔最下面加上
+```tls-cipher "DEFAULT:@SECLEVEL=0"``` <br>
+
+如果您是使用其他客戶端工具，請至設定更改相關設置，或降低版本，並注意這樣的做法僅為暫時用。
+
 
 ## Bug Report
 
 若使用上有問題，請聯繫資工系計中信箱。
 - [About US](/about/)
 
-<i class="fa fa-edit fa-fw"></i> Last Edited: _2018/10/06 by setsal_, contributed by _silenttulips_
