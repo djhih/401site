@@ -9,36 +9,6 @@ title: VPN 使用手冊
 經查詢屬實，將停止同學系上帳號及工作站使用權力，還請同學切勿以身試法。
 </blockquote>
 
-## PPTP
-<blockquote>
-由於新版的 iOS 10 和 macOS Sierra 已經移除 PPTP 協定
-還請使用該版本以上的同學轉而使用 OpenVPN 的服務
-</blockquote>
-
-以下教學以 windows 10 作為範例
-
-0. 前往網際網路設定點選 VPN 選項
-
-<img src="image/pptp/pptp_0.png" width="50%" >
-
-1. 點選新增 VPN 連線，輸入如下圖相關資訊
-
-<img src="image/pptp/pptp_1.png" width="50%" >
-
-2. 設定完成後，點選頁面下方"變更介面卡設定"
-
-<img src="image/pptp/pptp_2.png" width="50%" >
-
-3. 右鍵點擊建立好之 VPN 介面卡, 選擇內容並切換到安全性的分頁
-
-<img src="image/pptp/pptp_3.png" >
-
-4. 依照下圖紅框指示進行設定，按下確定
-
-<img src="image/pptp/pptp_4.png" width="50%" >
-
-5. 選取該設定好之 VPN 連線，輸入系上工作站帳密即可成功連線
-
 ## OpenVPN
 
 ### Windows
