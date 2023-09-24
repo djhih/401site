@@ -1,0 +1,25 @@
+title: 401site
+subtitle: "Powered by Hexo"
+description: "(っ・Д・)っ一天弄出來的setsal"
+author: lab401
+language: zh-tw
+timezone: UTC
+
+url: https://setsal.github.io
+root: /
+permalink: /:year/:month/:day/:title/
+archive_dir: /
+code_dir: downloads/code
+new_post_name: :year-:month-:day-:title.md # File name of new posts
+post_asset_folder: true
+per_page: 0
+
+theme: navy
+deploy:
+  type: git
+  branch: production
+  repo: git@github.com:2j4/401site.git
+
+highlight:
+  enable: true
+  line_number: false

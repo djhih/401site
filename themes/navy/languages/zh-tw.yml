@@ -1,0 +1,38 @@
+menu:
+  docs: 教學
+  api: API
+  Announce: 公告
+  about: 關於
+
+index:
+  get_started: 開始使用
+
+page:
+  contents: 目錄
+  back_to_top: 回到頁首
+  improve: 改善這篇文件
+  prev: 上一頁
+  next: 下一頁
+  last_updated: 上次更新：%s
+
+sidebar:
+  docs:
+    Services: 提供服務
+    overview: 概覽
+    basic_usage: 主要伺服器
+    workstation: 工作站
+    www_guide: WWW
+    mail_guide: Mail
+    vpn_guide: VPN
+    vpn2_guide: VPN2
+    turnin_guide: Turnin
+    alumni_guide: Alumni
+    mysql_guide: MySQL
+    Network: 資工系網路
+    rules: 相關規定
+    ip: 實驗室申請IP申請程序
+    domain: 系上 Domain Name 異動須知
+    wireless: 無線網路
+    Others: 其他
+    external: 外系生
+    contact: 聯絡窗口

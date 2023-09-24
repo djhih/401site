@@ -1,0 +1,20 @@
+docs:
+  Services:
+    overview: index.html
+  basic_usage:
+    workstation: workstation.html
+    www_guide: www.html
+    mail_guide: mail.html
+    vpn_guide: vpn.html
+    vpn2_guide: vpn2.html
+    turnin_guide: turnin.html
+    alumni_guide: alumni.html
+    mysql_guide: mysql.html
+  Network:
+    rules: rules.html
+    ip: ip.html
+    domain: domain.html
+    wireless: wireless.html
+  Others:
+    external: external.html
+    contact: contact.html
