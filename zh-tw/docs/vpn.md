@@ -114,4 +114,3 @@ WARNING: this configuration may cache passwords in memory -- use the auth-nocach
 若使用上有問題，請聯繫資工系計中信箱。
 - [About US](/about/)
 
-<i class="fa fa-edit fa-fw"></i> Last Edited: _2018/10/06 by setsal_, contributed by _silenttulips_
