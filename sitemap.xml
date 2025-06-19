@@ -2,9 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://setsal.github.io/docs/vpn.html</loc>
+    
+    <lastmod>2023-09-21T17:01:53.521Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://setsal.github.io/zh-tw/docs/vpn.html</loc>
+    
+    <lastmod>2023-09-21T17:01:50.674Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://setsal.github.io/en/docs/index.html</loc>
     
-    <lastmod>2023-07-27T09:48:50.091Z</lastmod>
+    <lastmod>2023-07-27T14:21:03.355Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://setsal.github.io/zh-tw/docs/wireless.html</loc>
+    
+    <lastmod>2023-07-27T14:10:29.480Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://setsal.github.io/docs/wireless.html</loc>
+    
+    <lastmod>2023-07-27T14:10:29.479Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://setsal.github.io/zh-tw/docs/vpn2.html</loc>
+    
+    <lastmod>2023-07-27T14:10:29.479Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://setsal.github.io/docs/vpn2.html</loc>
+    
+    <lastmod>2023-07-27T14:10:29.466Z</lastmod>
     
   </url>
   
@@ -37,20 +79,6 @@
   </url>
   
   <url>
-    <loc>https://setsal.github.io/zh-tw/docs/wireless.html</loc>
-    
-    <lastmod>2023-07-26T18:30:20.481Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://setsal.github.io/zh-tw/docs/vpn.html</loc>
-    
-    <lastmod>2023-07-26T18:30:20.481Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://setsal.github.io/zh-tw/docs/turnin.html</loc>
     
     <lastmod>2023-07-26T18:30:20.481Z</lastmod>
@@ -58,14 +86,7 @@
   </url>
   
   <url>
-    <loc>https://setsal.github.io/zh-tw/docs/vpn2.html</loc>
-    
-    <lastmod>2023-07-26T18:30:20.481Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://setsal.github.io/zh-tw/docs/rules.html</loc>
+    <loc>https://setsal.github.io/zh-tw/docs/ip.html</loc>
     
     <lastmod>2023-07-26T18:30:20.480Z</lastmod>
     
@@ -79,7 +100,7 @@
   </url>
   
   <url>
-    <loc>https://setsal.github.io/zh-tw/docs/ip.html</loc>
+    <loc>https://setsal.github.io/zh-tw/docs/rules.html</loc>
     
     <lastmod>2023-07-26T18:30:20.480Z</lastmod>
     
@@ -128,13 +149,6 @@
   </url>
   
   <url>
-    <loc>https://setsal.github.io/index.html</loc>
-    
-    <lastmod>2023-07-26T18:30:20.453Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://setsal.github.io/en/index.html</loc>
     
     <lastmod>2023-07-26T18:30:20.453Z</lastmod>
@@ -142,9 +156,9 @@
   </url>
   
   <url>
-    <loc>https://setsal.github.io/docs/www.html</loc>
+    <loc>https://setsal.github.io/index.html</loc>
     
-    <lastmod>2023-07-26T18:30:20.452Z</lastmod>
+    <lastmod>2023-07-26T18:30:20.453Z</lastmod>
     
   </url>
   
@@ -156,16 +170,9 @@
   </url>
   
   <url>
-    <loc>https://setsal.github.io/docs/wireless.html</loc>
+    <loc>https://setsal.github.io/docs/www.html</loc>
     
-    <lastmod>2023-07-26T18:30:20.451Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://setsal.github.io/docs/vpn2.html</loc>
-    
-    <lastmod>2023-07-26T18:30:20.451Z</lastmod>
+    <lastmod>2023-07-26T18:30:20.452Z</lastmod>
     
   </url>
   
@@ -184,9 +191,9 @@
   </url>
   
   <url>
-    <loc>https://setsal.github.io/docs/vpn.html</loc>
+    <loc>https://setsal.github.io/docs/ip.html</loc>
     
-    <lastmod>2023-07-26T18:30:20.450Z</lastmod>
+    <lastmod>2023-07-26T18:30:20.449Z</lastmod>
     
   </url>
   
@@ -199,13 +206,6 @@
   
   <url>
     <loc>https://setsal.github.io/docs/mysql.html</loc>
-    
-    <lastmod>2023-07-26T18:30:20.449Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://setsal.github.io/docs/ip.html</loc>
     
     <lastmod>2023-07-26T18:30:20.449Z</lastmod>
     
@@ -233,14 +233,14 @@
   </url>
   
   <url>
-    <loc>https://setsal.github.io/docs/contact.html</loc>
+    <loc>https://setsal.github.io/docs/alumni.html</loc>
     
     <lastmod>2023-07-26T18:30:20.427Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://setsal.github.io/docs/alumni.html</loc>
+    <loc>https://setsal.github.io/docs/contact.html</loc>
     
     <lastmod>2023-07-26T18:30:20.427Z</lastmod>
     
